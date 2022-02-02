@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("https://www.rd.com/wp-content/uploads/2021/07/movie-trivia-header-scaled.jpg");
+}
+img {
+  border-radius: 25px;
+  width: 350px;
+  height: 500px;
+  margin-top: 20px;
+  object-fit:cover;
+}
+.buton{
+   display:flex;
+   gap: 15px;
+}
+.movie{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  gap: 16px;
+  }
+  .input{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
